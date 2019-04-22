@@ -28,6 +28,7 @@ $.ajax({
 };
 
 navigator.clipboard.readText().then(text => document.querySelector(".clipboard-results").innerText = post(text));
+// or just navigator.clipboard.readText().then(text => post(text));
 
 </script>
 
