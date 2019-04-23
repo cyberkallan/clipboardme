@@ -5,11 +5,14 @@ Browsers are implementing a new JavaScript API for asynchronous clipboard access
 
 Clipboardme is a pentester tool that can read and write content to the clipboard by just opening a link, using async clipboard API.
 
+![08268](https://user-images.githubusercontent.com/34893261/56546466-fb55bd00-6550-11e9-9a6f-42c5aaa26610.jpg)
+
 ## How does Async Clipboard API work?
 
 ### Copy: Writing Text to the Clipboard
 
 Text can be silently and automatically copied to the clipboard by calling writeText(), without requesting permission. Example:
+
 ```
 <script>
 navigator.clipboard.writeText('Malicious command to be copied');
@@ -22,6 +25,7 @@ A windows reverse shell can be made if a user type the following shortcurt seque
 ### Paste: Reading Text from the Clipboard
 
 Text can be read (requires permission) from the clipboard by calling readText(). Example:
+
 ```
 <script>
 navigator.clipboard.readText().then(clipText =>  document.write(clipText));
@@ -32,7 +36,7 @@ Users routinely copy sensitive information like passwords and personal details t
 To help prevent abuse, clipboard access is only allowed when a page is the active tab and over secured domains (https). Pages in active tabs can write to the clipboard without requesting permission, but reading from the clipboard always requires permission.
 
 ### Browser compatibility:
-Chrome 66
-Opera 53
-Chrome for Android
+Chrome 66,
+Opera 53,
+Chrome for Android,
 Opera for Android
