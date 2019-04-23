@@ -5,7 +5,7 @@ Browsers are implementing a new JavaScript API for asynchronous clipboard access
 
 Clipboardme is a pentester tool that can read and write content to the clipboard by just opening a link, using async clipboard API.
 
-![08268](https://user-images.githubusercontent.com/34893261/56546466-fb55bd00-6550-11e9-9a6f-42c5aaa26610.jpg)
+![cb](https://user-images.githubusercontent.com/34893261/56546581-335d0000-6551-11e9-85c0-12ee672b3fb4.png)
 
 ## How does Async Clipboard API work?
 
