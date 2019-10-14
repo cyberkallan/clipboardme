@@ -12,6 +12,13 @@ Clipboardme is a pentester tool that can read and write content to the clipboard
 
 ### Copy: Writing Text to the Clipboard
 
+```
+cd Clipboardme
+chmod +x *
+./Clipboardme.sh
+
+```
+
 Text can be silently and automatically copied to the clipboard by calling writeText(), without requesting permission. Example:
 
 ```
