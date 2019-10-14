@@ -19,6 +19,9 @@ chmod +x *
 
 ```
 
+## constribution by arjun arz
+
+   ![cb](https://user-images.githubusercontent.com/56509491/66750279-b2504700-eea9-11e9-9f9e-100ddc35504c.jpg)
 Text can be silently and automatically copied to the clipboard by calling writeText(), without requesting permission. Example:
 
 ```
