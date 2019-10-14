@@ -14,8 +14,11 @@ Clipboardme is a pentester tool that can read and write content to the clipboard
 
 ```
 cd Clipboardme
+
 chmod +x *
+
 ./Clipboardme.sh
+
 
 ```
 
