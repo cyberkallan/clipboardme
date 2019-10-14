@@ -1,6 +1,6 @@
 #!/bin/bash
 # Clipboard me v1.1
-# coded by: github.com/thelinuxchoice/clipboardme
+# coded by: Cyber kallan (mallu youtuber)
 # If you use any part from this code, giving me the credits. Read the Lincense!
 
 trap 'printf "\n";stop' 2
@@ -14,12 +14,12 @@ printf "\e[1;77m| /     | |_ ____ | | _   ___   ____  ____ _ | |\e[0m\e[1;92m __
 printf "\e[1;77m| |     | | |  _ \| || \ / _ \ / _  |/ ___) || |\e[0m\e[1;92m|    \ / _  ) \e[0m\n"
 printf "\e[1;77m| \_____| | | | | | |_) ) |_| ( ( | | |  ( (_| |\e[0m\e[1;92m| | | ( (/ /  \e[0m\n"
 printf "\e[1;77m \______)_|_| ||_/|____/ \___/ \_||_|_|   \____|\e[0m\e[1;92m|_|_|_|\____) \e[0m\n"
-printf "\e[1;77m            |_|          _     /_ _  _  /_ _  / / _  _ 
-/_ /_//_//_'/  /\ /_|/ / /_|/ /
-   _/                          
+printf "\e[1;77m            |_|       𒈞C̐Y̐B̐E̐R̐ K̐A̐L̐L̐A̐N̐𒈞
+
+             
                                       \e[0m\n"
 
-printf " \e[1;77mv1.1 coded by github.com/thelinuxchoice/clipboardme\e[0m \n"
+printf " \e[1;77mv1.1 coded by cyber kallan (arjun arz) \e[0m \n"
 
 printf "\n"
 
