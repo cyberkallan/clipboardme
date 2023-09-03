@@ -1,6 +1,6 @@
 # Clipboardme
 ## Grab/Inject Clipboard Content
-### coded by cyber kallan
+### Re-coded by cyber kallan
 # Instagrame :- imarjunarz
 Browsers are implementing a new JavaScript API for asynchronous clipboard access to integrate copy and paste into web applications. It is a replacement for the synchronous execCommand-based copy & paste. Async Clipboard requests doesn't block the page while waiting the process, it's a improvement over sync requests as well as simplifying events and aligning them with the Drag & Drop API.
 
